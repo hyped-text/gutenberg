@@ -1,3 +1,5 @@
+#!/bin/sh
+
 RDFS=`find ./cache/epub -name *.rdf`
 
 for RDF in $RDFS

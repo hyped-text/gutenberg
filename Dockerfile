@@ -2,9 +2,7 @@ FROM "stain/jena-fuseki"
 
 WORKDIR /gutenberg
 
-COPY download.sh /gutenberg
-
-COPY load.sh /gutenberg
+COPY download.sh load.sh run.sh /gutenberg/
 
 COPY shiro.ini /fuseki
 
